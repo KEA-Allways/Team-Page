@@ -1,0 +1,38 @@
+/* Layout.css */
+
+.layout {
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .main-title {
+    font-size: 32px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  

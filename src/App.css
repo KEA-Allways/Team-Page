@@ -1,0 +1,36 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.header {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  color: yellow;
+}
+.nav {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
