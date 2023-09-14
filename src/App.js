@@ -34,11 +34,11 @@ function App() {
             />
           </Link>
 
-          <Link to="/Changmin">Changmin</Link>
-          <Link to="/Dajung">Dajung</Link>
-          <Link to="/Minjue">Minjue</Link>
+          <Link to="/Changmeen">Changmeen</Link>
+          <Link to="/Dajeong">Dajeong</Link>
+          <Link to="/Minjun">Minjun</Link>
           <Link to="/Suha">Suha</Link>
-          <Link to="/Seoungjune">Seoungjune</Link>
+          <Link to="/Sungjun">Sungjun</Link>
         </nav>
         
       </div>
