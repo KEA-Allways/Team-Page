@@ -34,6 +34,15 @@ function App() {
             />
           </Link>
 
+          <Link to="/Changmeen">
+            <img
+              width="100px"
+              src="/changmeen.png" // 이미지 경로를 /로 시작하도록 수정
+              alt="Changmeen Image"
+              className="center-image"
+            />
+          </Link>
+
           <Link to="/Changmeen">Changmeen</Link>
           <Link to="/Dajeong">Dajeong</Link>
           <Link to="/Minjun">Minjun</Link>
