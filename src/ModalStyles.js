@@ -4,15 +4,15 @@ const customModalStyles = {
   overlay: {
     backgroundColor: " rgba(0, 0, 0, 0.4)",
     width: "100%",
-    height: "100vh",
+    height: "100%",
     zIndex: "10",
     position: "fixed",
     top: "0",
     left: "0",
   },
   content: {
-    width: "360px",
-    height: "180px",
+    width: "600px",
+    height: "400px",
     zIndex: "150",
     position: "absolute",
     top: "50%",
