@@ -16,7 +16,10 @@ function App() {
       <div>
         <header className="header">
           <div className="header-content">
-            <Logo/>
+            <Link to="/">
+              <Logo />
+            </Link>
+            
             <h1>
               <span style={{ color: 'FBF562' }}>ALWAYS</span>{' '}
               <span style={{ color: '#43C0FF' }}>ALL WAYS</span> 
