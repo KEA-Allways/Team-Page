@@ -7,6 +7,11 @@ body {
   background-color: #000000;
 }
 
+ 
+.visible {
+  opacity: 1; /* 투명도를 1로 설정하여 이미지를 표시 */
+}
+
 .header {
   background-color: #000000;
   color: #fff;
@@ -34,3 +39,12 @@ body {
 .nav a:hover {
   text-decoration: underline;
 }
+
+ 
+.enlarged {
+  transform: scale(3); /* 이미지 크기를 1.2배로 확대합니다. 원하는 크기로 수정하세요. */
+  transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out; /* 크기 변경 및 투명도 전환 애니메이션 */
+}
+
+
+ 
