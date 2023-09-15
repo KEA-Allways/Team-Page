@@ -30,6 +30,10 @@ function App() {
           <Route path="/" element={<Layout />}>
           <Route path="Suha" element={<Suha />} />
           <Route path="Dajeong" element={<Dajeong />} />
+          <Route path="Sungjun" element={<Sungjun />} />
+          <Route path="Changmeen" element={<Changmeen />} />
+          <Route path="Minjun" element={<Minjun />} />
+          
           </Route>
           </Routes>
           
