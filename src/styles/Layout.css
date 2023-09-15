@@ -16,8 +16,8 @@
 .modal-content {
   background-color: #000000; /* 모달 내용 배경색 */
   padding: 20px;
-  max-width: 80%; /* 모달의 최대 너비 */
-  max-height: 80%; /* 모달의 최대 높이 */
+  max-width: 90%; /* 모달의 최대 너비 */
+  max-height: 90%; /* 모달의 최대 높이 */
   overflow-y: auto; /* 내용이 넘칠 경우 스크롤 가능하도록 설정 */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
   border-radius: 8px; /* 모달의 모서리를 둥글게 만듭니다. */
