@@ -36,7 +36,12 @@ const Layout = () => {
             />
           </Link>
           <Link to="/Minjun">
-            Minjun
+          <img
+              width="100px"
+              src="/minjun.jpeg" // 이미지 경로를 /로 시작하도록 수정
+              alt="Dajeong Image"
+              className="center-image"
+            />
           </Link>
           
           <Link to="/Sungjun">
