@@ -1,61 +1,73 @@
-import React from 'react';
-import { Outlet, Link } from 'react-router-dom';
-import Logo from './Logo'; // 로고 컴포넌트 임포트
-import './Layout'; // 스타일링을 위한 CSS 파일
+import React, { useState } from 'react';
+import Modal from 'react-modal';
+import { customModalStyles } from '../ModalStyles';
+
+Modal.setAppElement('#root');
 
 const Layout = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleImageClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className="layout">
-        
       <header className="header">
-        
-
-          <Link to="/Suha">
-            <img
-              width="100px"
-              src="/suha.png" // 이미지 경로를 /로 시작하도록 수정
-              alt="Suha Image"
-              className="center-image"
-            />
-          </Link>
-
-          <Link to="/Changmeen">
+      <img
+            width="100px"
+            src="/suha.png"
+            alt="Suha Image"
+            className="center-image"
+            onClick={handleImageClick} // 이미지 클릭 시 모달 열기
+          />
           <img
-              width="100px"
-              src="/changmeen.png" // 이미지 경로를 /로 시작하도록 수정
-              alt="Changmeen Image"
-              className="center-image"
-            />
-          </Link>
-          <Link to="/Dajeong">
-            <img
-              width="100px"
-              src="/dajeong.png" // 이미지 경로를 /로 시작하도록 수정
-              alt="Dajeong Image"
-              className="center-image"
-            />
-          </Link>
-          <Link to="/Minjun">
+            width="100px"
+            src="/sungjun.png"
+            alt="sungjun Image"
+            className="center-image"
+            onClick={handleImageClick} // 이미지 클릭 시 모달 열기
+          />
           <img
-              width="100px"
-              src="/minjun.jpeg" // 이미지 경로를 /로 시작하도록 수정
-              alt="Dajeong Image"
-              className="center-image"
-            />
-          </Link>
-          
-          <Link to="/Sungjun">
+            width="100px"
+            src="/changmeen.png"
+            alt="changmeen Image"
+            className="center-image"
+            onClick={handleImageClick} // 이미지 클릭 시 모달 열기
+          />
           <img
-              width="100px"
-              src="/Sungjun.png" // 이미지 경로를 /로 시작하도록 수정
-              alt="Sungjun Image"
-              className="center-image"
-            />
-          </Link>
+            width="100px"
+            src="/dajeong.png"
+            alt="dajeong Image"
+            className="center-image"
+            onClick={handleImageClick} // 이미지 클릭 시 모달 열기
+          />
+          <img
+            width="100px"
+            src="/minjun.jpeg"
+            alt="minjun Image"
+            className="center-image"
+            onClick={handleImageClick} // 이미지 클릭 시 모달 열기
+          />
       </header>
-      <main className="main-content">
-        <Outlet />
-      </main>
+
+      <Modal
+        isOpen={isModalOpen}
+        onRequestClose={closeModal}
+        contentLabel="Modal"
+        style={customModalStyles}
+      >
+        <div className="modal-content">
+          <span className="close" onClick={closeModal}>&times;</span>
+          <h2>Modal Content</h2>
+          <p>이 곳에 모달에 표시할 내용을 추가하세요.</p>
+          <p>모달 내용을 원하는 대로 커스터마이즈하세요.</p>
+        </div>
+      </Modal>
     </div>
   );
 };
