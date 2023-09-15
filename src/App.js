@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from './pages/Layout';
- 
 import "./styles/App.css"; // 스타일링 파일 임포트
 import Logo from './pages/Logo';
 
@@ -10,7 +9,8 @@ function App() {
       <div>
         <header className="header">
           <div className="header-content">
-            <Logo/>
+            <Logo />
+            
             <h1>
               <span style={{ color: 'FBF562' }}>ALWAYS</span>{' '}
               <span style={{ color: '#43C0FF' }}>ALL WAYS</span> 

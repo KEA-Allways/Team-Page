@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import { customModalStyles } from '../ModalStyles';
+import ModalContent from './ModalContent';
 
 
 const modalHTMLContent = (
@@ -27,16 +28,15 @@ Modal.setAppElement('#root');
 
 const Layout = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalContent, setModalContent] = useState(null); // 모달 내용을 동적으로 설정할 상태
-  const [modelType,setModelType] =useState(null);
-
+  const [modalType, setModalType] = useState(null);
 
   const handleImageClick = (type) => {
-    setModalContent(modalHTMLContent,modelType);
+    setModalType(type);
     setIsModalOpen(true);
   };
 
   const closeModal = () => {
+    setModalType(null);
     setIsModalOpen(false);
   };
 
@@ -49,35 +49,35 @@ const Layout = () => {
             src="/suha.png"
             alt="Suha Image"
             className="center-image"
-            onClick={() => handleImageClick( )}
+            onClick={() => handleImageClick('suha')} // 이미지 클릭 시 모달 열기
           />
           <img
             width="100px"
             src="/sungjun.png"
             alt="sungjun Image"
             className="center-image"
-            onClick={() => handleImageClick()} // 이미지 클릭 시 모달 열기
+            onClick={() => handleImageClick('sungjun')} // 이미지 클릭 시 모달 열기
           />
           <img
             width="100px"
             src="/changmeen.png"
             alt="changmeen Image"
             className="center-image"
-            onClick={() =>handleImageClick( )} // 이미지 클릭 시 모달 열기
+            onClick={() => handleImageClick('changmeen')} // 이미지 클릭 시 모달 열기
           />
           <img
             width="100px"
             src="/dajeong.png"
             alt="dajeong Image"
             className="center-image"
-            onClick={() =>handleImageClick( )} // 이미지 클릭 시 모달 열기
+            onClick={() => handleImageClick('dajeong')} // 이미지 클릭 시 모달 열기
           />
           <img
             width="100px"
             src="/minjun.jpeg"
             alt="minjun Image"
             className="center-image"
-            onClick={() =>handleImageClick( )} // 이미지 클릭 시 모달 열기
+            onClick={() => handleImageClick('minjun')} // 이미지 클릭 시 모달 열기
           />
       </header>
 
@@ -87,11 +87,7 @@ const Layout = () => {
         contentLabel="Modal"
         style={customModalStyles}
       >
-        <div className="modal-content">
-          <span className="close" onClick={closeModal}>&times;</span>
-          {modalContent}
-           
-        </div>
+        <ModalContent modalType={modalType} closeModal={closeModal}/>
       </Modal>
     </div>
   );
