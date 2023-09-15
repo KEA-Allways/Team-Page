@@ -9,35 +9,36 @@ const Layout = () => {
         
       <header className="header">
         
-        <nav className="nav">
-          <ul className="nav-list">
-            <li className="nav-item">
-              <Link to="/Changmin" className="nav-link">
-                Changmin
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/Suha" className="nav-link">
-                Suha
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/Sungjun" className="nav-link">
-                Sungjun
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/Dajung" className="nav-link">
-                Dajung
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/Minjue" className="nav-link">
-                Minjue
-              </Link>
-            </li>
-          </ul>
-        </nav>
+
+          <Link to="/Suha">
+            <img
+              width="100px"
+              src="/suha.png" // 이미지 경로를 /로 시작하도록 수정
+              alt="Suha Image"
+              className="center-image"
+            />
+          </Link>
+
+          <Link to="/Changmeen">
+            Changmeen
+          </Link>
+          <Link to="/Dajeong">
+            <img
+              width="100px"
+              src="/dajeong.png" // 이미지 경로를 /로 시작하도록 수정
+              alt="Dajeong Image"
+              className="center-image"
+            />
+          </Link>
+          <Link to="/Minjun">
+            Minjun
+          </Link>
+          <Link to="/Suha">
+            Suha
+          </Link>
+          <Link to="/Sungjun">
+            Sungjun
+          </Link>
       </header>
       <main className="main-content">
         <Outlet />

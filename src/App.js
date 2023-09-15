@@ -25,32 +25,15 @@ function App() {
         </header>
         
         <nav className="nav">
-          <Link to="/Suha">
-            <img
-              width="100px"
-              src="/suha.png" // 이미지 경로를 /로 시작하도록 수정
-              alt="Suha Image"
-              className="center-image"
-            />
-          </Link>
 
-          <Link to="/Sungjun">
-            
-          </Link>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+          <Route path="Suha" element={<Suha />} />
+          <Route path="Dajeong" element={<Dajeong />} />
+          </Route>
+          </Routes>
+          
 
-
-          <Link to="/Changmeen">Changmeen</Link>
-          <Link to="/Dajeong">Dajeong</Link>
-          <Link to="/Minjun">Minjun</Link>
-          <Link to="/Suha">Suha</Link>
-          <Link to="/Sungjun">
-            <img
-              width="100px"
-              src="/Sungjun.png" // 이미지 경로를 /로 시작하도록 수정
-              alt="Sungjun Image"
-              className="center-image"
-            />
-            </Link>
         </nav>
         
       </div>
