@@ -21,7 +21,6 @@ function App() {
             <span style={{ color: '#43C0FF' }}>ALL WAYS</span> 
           </h1>
 
-
         </header>
         
         <nav className="nav">
@@ -34,7 +33,7 @@ function App() {
             />
           </Link>
 
-          <Link to="/Suha">
+          <Link to="/Changmeen">
             <img
               width="100px"
               src="/changmeen.png" // 이미지 경로를 /로 시작하도록 수정
