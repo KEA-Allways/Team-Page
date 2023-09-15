@@ -25,6 +25,7 @@ function App() {
         </header>
         
         <nav className="nav">
+
         <Routes>
           <Route path="/" element={<Layout />}>
           <Route path="Suha" element={<Suha />} />
@@ -32,6 +33,7 @@ function App() {
           </Route>
           </Routes>
           
+
         </nav>
         
       </div>
