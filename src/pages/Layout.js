@@ -22,8 +22,8 @@ const Layout = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Seoungjune" className="nav-link">
-                Seoungjune
+              <Link to="/Sungjun" className="nav-link">
+                Sungjun
               </Link>
             </li>
             <li className="nav-item">
