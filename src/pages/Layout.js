@@ -20,7 +20,12 @@ const Layout = () => {
           </Link>
 
           <Link to="/Changmeen">
-            Changmeen
+          <img
+              width="100px"
+              src="/changmeen.png" // 이미지 경로를 /로 시작하도록 수정
+              alt="Changmeen Image"
+              className="center-image"
+            />
           </Link>
           <Link to="/Dajeong">
             <img
@@ -33,11 +38,14 @@ const Layout = () => {
           <Link to="/Minjun">
             Minjun
           </Link>
-          <Link to="/Suha">
-            Suha
-          </Link>
+          
           <Link to="/Sungjun">
-            Sungjun
+          <img
+              width="100px"
+              src="/Sungjun.png" // 이미지 경로를 /로 시작하도록 수정
+              alt="Sungjun Image"
+              className="center-image"
+            />
           </Link>
       </header>
       <main className="main-content">
