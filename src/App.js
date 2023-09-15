@@ -34,11 +34,23 @@ function App() {
             />
           </Link>
 
+          <Link to="/Sungjun">
+            
+          </Link>
+
+
           <Link to="/Changmeen">Changmeen</Link>
           <Link to="/Dajeong">Dajeong</Link>
           <Link to="/Minjun">Minjun</Link>
           <Link to="/Suha">Suha</Link>
-          <Link to="/Sungjun">Sungjun</Link>
+          <Link to="/Sungjun">
+            <img
+              width="100px"
+              src="/Sungjun.png" // 이미지 경로를 /로 시작하도록 수정
+              alt="Sungjun Image"
+              className="center-image"
+            />
+            </Link>
         </nav>
         
       </div>
