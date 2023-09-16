@@ -13,8 +13,8 @@ const customModalStyles = {
       alignItems: "center",
     },
     content: {
-      width: "80%",
-      maxWidth: "600px",
+      width: "700px",
+      height: "60%",
       zIndex: "150",
       position: "relative",
       top: "0",
