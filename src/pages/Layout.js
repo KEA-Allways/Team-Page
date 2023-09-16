@@ -45,35 +45,35 @@ const Layout = () => {
     <div className="layout">
       <header className="header">
       <img
-            width="100px"
+            width="200px"
             src="/suha.png"
             alt="Suha Image"
             className="center-image"
             onClick={() => handleImageClick('suha')} // 이미지 클릭 시 모달 열기
           />
           <img
-            width="100px"
+            width="200px"
             src="/sungjun.png"
             alt="sungjun Image"
             className="center-image"
             onClick={() => handleImageClick('sungjun')} // 이미지 클릭 시 모달 열기
           />
           <img
-            width="100px"
+            width="200px"
             src="/changmeen.png"
             alt="changmeen Image"
             className="center-image"
             onClick={() => handleImageClick('changmeen')} // 이미지 클릭 시 모달 열기
           />
           <img
-            width="100px"
+            width="200px"
             src="/dajeong.png"
             alt="dajeong Image"
             className="center-image"
             onClick={() => handleImageClick('dajeong')} // 이미지 클릭 시 모달 열기
           />
           <img
-            width="100px"
+            width="200px"
             src="/minjun.jpeg"
             alt="minjun Image"
             className="center-image"
