@@ -2,6 +2,7 @@
   "name": "team-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -51,6 +52,5 @@
   },
   "bugs": {
     "url": "https://github.com/KEA-Allways/Team-Pages/issues"
-  },
-  "homepage": "https://github.com/KEA-Allways/Team-Pages#readme"
+  }
 }
