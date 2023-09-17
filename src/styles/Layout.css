@@ -54,3 +54,19 @@
   max-width: 100%;
   height: auto;
 }
+
+
+
+
+/* .layout img {
+  transition: all 0.4s linear;
+  transform: scale(1);
+}
+
+.layout:hover img {
+  transition: all 0.4s linear;
+}
+
+.layout:hover img {
+  transform: scale(2);
+} */
