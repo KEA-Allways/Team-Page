@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import { customModalStyles } from '../ModalStyles';
+import { customModalStyles } from '../styles/ModalStyles';
 import ModalContent from './ModalContent';
 import "../styles/styles.css"
 import "../styles/Layout.css"
@@ -20,13 +20,15 @@ const Layout = () => {
     setIsModalOpen(false);
   };
 
+
   return (
     <div className="layout">
       <header className="header">
+ 
 
 
           <img
-            width="100px"
+            width="200px"
             src="/suha.png"
             alt="Suha Image"
             className="center-image"
@@ -34,7 +36,7 @@ const Layout = () => {
           />
 
           <img
-            width="100px"
+            width="200px"
             src="/sungjun.png"
             alt="sungjun Image"
             className="center-image"
@@ -43,7 +45,7 @@ const Layout = () => {
 
 
           <img
-            width="100px"
+            width="200px"
             src="/changmeen.png"
             alt="changmeen Image"
             className="center-image"
@@ -51,7 +53,7 @@ const Layout = () => {
           />
 
           <img
-            width="100px"
+            width="200px"
             src="/dajeong.png"
             alt="dajeong Image"
             className="center-image"
@@ -59,7 +61,7 @@ const Layout = () => {
           />
 
           <img
-            width="100px"
+            width="200px"
             src="/minjun.jpeg"
             alt="minjun Image"
             className="center-image"
