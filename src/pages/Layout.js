@@ -24,7 +24,10 @@ const Layout = () => {
   return (
     <div className="layout">
       <header className="header">
-      <img
+ 
+
+
+          <img
             width="200px"
             src="/suha.png"
             alt="Suha Image"
