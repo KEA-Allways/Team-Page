@@ -39,14 +39,45 @@ function ModalContent({ modalType, closeModal }) {
   let email = '';
   let github_link = '';
 
-  switch (modalType) {
-    case 'suha':
-      name = '황수하';
-      self_introduce = 'asdfasdfa';
-      email = 'hp980724@gmail.com';
-      github_link = 'https://github.com/hp0724';
-      break;
-    // Add more cases for other modal types if needed
+    switch(modalType) {
+        // modalType
+        // 수하 : suha, 성준 : sungjun, 창민 : changmeen, 다정 : dajeong, 민준 : minjun
+
+        case 'suha':
+            name = "황수하";
+            self_introduce = "";
+            email = "";
+            github_link = "";
+            break;
+
+        case 'sungjun':
+            name = "김성준";
+            self_introduce = "";
+            email = "";
+            github_link = "";
+            break;
+            
+        case 'changmeen':
+            name = "류창민";
+            self_introduce = "소프트웨어학과 17학번 류창민 입니다. 잘 부탁드리겠습니다.";
+            email = "fbckdals99@gmail.com";
+            github_link = "https://github.com/changmeen";
+            break;
+
+        case 'dajeong':
+            name = "최다정";
+            self_introduce = "";
+            email = "";
+            github_link = "";
+            break;
+
+        case 'minjun':
+            name = "김민준";
+            self_introduce = "";
+            email = "";
+            github_link = "";
+            break;
+        // Add more cases for other modal types if needed
 
     default:
       break;

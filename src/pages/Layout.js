@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import { customModalStyles } from '../styles/ModalStyles';
 import ModalContent from './ModalContent';
-
-
- 
+import "../styles/styles.css"
+import "../styles/Layout.css"
 Modal.setAppElement('#root');
 
 const Layout = () => {
@@ -32,6 +31,7 @@ const Layout = () => {
             className="center-image"
             onClick={() => handleImageClick('suha')} // 이미지 클릭 시 모달 열기
           />
+
           <img
             width="200px"
             src="/sungjun.png"
@@ -39,6 +39,8 @@ const Layout = () => {
             className="center-image"
             onClick={() => handleImageClick('sungjun')} // 이미지 클릭 시 모달 열기
           />
+
+
           <img
             width="200px"
             src="/changmeen.png"
@@ -46,6 +48,7 @@ const Layout = () => {
             className="center-image"
             onClick={() => handleImageClick('changmeen')} // 이미지 클릭 시 모달 열기
           />
+
           <img
             width="200px"
             src="/dajeong.png"
@@ -53,6 +56,7 @@ const Layout = () => {
             className="center-image"
             onClick={() => handleImageClick('dajeong')} // 이미지 클릭 시 모달 열기
           />
+
           <img
             width="200px"
             src="/minjun.jpeg"
@@ -67,6 +71,16 @@ const Layout = () => {
         onRequestClose={closeModal}
         contentLabel="Modal"
         style={customModalStyles}
+        overlayClassName={{
+          base: "overlay-base",
+          afterOpen: "overlay-after",
+          beforeClose: "overlay-before"
+        }}
+        className={{
+          base: "content-base",
+          afterOpen: "content-after",
+          beforeClose: "content-before"
+        }}
       >
         <ModalContent modalType={modalType} closeModal={closeModal}/>
       </Modal>
