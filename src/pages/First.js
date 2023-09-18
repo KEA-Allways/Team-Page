@@ -1,11 +1,24 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Navbar from "./Navbar";
 import Logo from "./Logo";
 import Layout from "./Layout";
+import Welcome from "./Welcome";
 
-function Home(){
+function First(){
+    const [showLogo, setShowLogo] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+        setShowLogo(false);
+        }, 2000); // 2초 후 로고를 숨김
+    }, []);
+
     return(
     <div>
+        {showLogo 
+        ?
+            <Welcome />
+        :
         <div>
             <header className="header">
                 <div className="header-content">
@@ -19,9 +32,11 @@ function Home(){
             </header>
         
             <Layout/>
-        </div>     
+        </div>
+    }
+          
     </div>
     )
 }
 
-export default Home;
+export default First;
