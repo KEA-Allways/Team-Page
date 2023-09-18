@@ -52,9 +52,9 @@ function ModalContent({ modalType, closeModal }) {
 
         case 'sungjun':
             name = "김성준";
-            self_introduce = "";
-            email = "";
-            github_link = "";
+            self_introduce = "코드로 세상을 더 살만한 곳으로 만들고 싶은 프론트엔드 개발자 지망생 김성준입니다.";
+            email = "kis07150@gmail.com";
+            github_link = "https://github.com/sungjun-singer";
             break;
             
         case 'changmeen':

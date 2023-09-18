@@ -3,6 +3,7 @@ import Layout from './pages/Layout';
 import Welcome from './pages/Welcome';
 import "./styles/App.css"; // 스타일링 파일 임포트
 import Logo from './pages/Logo';
+import Navbar from './pages/Navbar';
 
 function App() {
   const [showLogo, setShowLogo] = useState(true);
@@ -22,6 +23,7 @@ function App() {
         : <div>
         <header className="header">
           <div className="header-content">
+            <Navbar className="header"/>
             <Logo />
             
             <h1>
