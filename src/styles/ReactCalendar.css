@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Adjust the calendar's container */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Style the calendar */
+.fc {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the calendar header */
+.fc-header-toolbar {
+  margin-bottom: 10px;
+}
+
+/* Style the calendar buttons */
+.fc-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.fc-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the calendar event background color */
+.fc-event {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.fc-event:hover {
+  background-color: #218838;
+}
+
+/* Style the calendar event text */
+.fc-event-title {
+  font-size: 14px;
+}
+
+/* Style the calendar event border */
+.fc-event-inner {
+  border: none;
+}
