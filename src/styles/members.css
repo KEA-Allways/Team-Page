@@ -1,16 +1,6 @@
 /* Members.css */
 
-.header {
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  
-  .card {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #fff;
-  }
+ 
   
   .card-img-top {
     max-width: 100%;

@@ -15,6 +15,9 @@ function Navbar() {
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="/members">Members</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="/calender">Calender</a>
+            </li>
           </ul>
           
         </div>
