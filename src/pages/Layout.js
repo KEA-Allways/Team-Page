@@ -22,7 +22,7 @@ const Layout = () => {
 
 
   return (
-    <div className="layout">
+    <div className="">
       <header className="header">
  
 
