@@ -66,9 +66,9 @@ function ModalContent({ modalType, closeModal }) {
 
         case 'dajeong':
             name = "최다정";
-            self_introduce = "";
-            email = "";
-            github_link = "";
+            self_introduce = "사용자에게 맞는 맞춤형 기능을 제공하는 개발자가 되겠습니다.";
+            email = "hers010801@gmail.com";
+            github_link = "https://github.com/allrightDJ0108";
             break;
 
         case 'minjun':
