@@ -36,7 +36,7 @@ function Members(){
                     
                     <div className="card-body">
                         <p className="card-text">안녕하세요 수하입니다.<br/> 반갑습니다</p>
-                        <button onClick={() => handleImageClick('suha')}>View more</button>
+                        <button class="btn btn-primary fw-bold"onClick={() => handleImageClick('suha')}>View more</button>
                     </div>
                 </div>
 
@@ -46,7 +46,7 @@ function Members(){
                     
                     <div className="card-body">
                         <p className="card-text">안녕하세요 성준입니다.<br/> 반갑습니다</p>
-                        <button onClick={() => handleImageClick('sungjun')}>View more</button>
+                        <button class="btn btn-primary fw-bold" onClick={() => handleImageClick('sungjun')}>View more</button>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ function Members(){
                     
                     <div className="card-body">
                         <p className="card-text">안녕하세요 창민입니다.<br/> 반갑습니다</p>
-                        <button onClick={() => handleImageClick('changmeen')}>View more</button>
+                        <button class="btn btn-primary fw-bold" onClick={() => handleImageClick('changmeen')}>View more</button>
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@ function Members(){
                     
                     <div className="card-body">
                         <p className="card-text">안녕하세요 다정입니다.<br/> 반갑습니다</p>
-                        <button onClick={() => handleImageClick('dajeong')}>View more</button>
+                        <button class="btn btn-primary fw-bold" onClick={() => handleImageClick('dajeong')}>View more</button>
                     </div>
                 </div>
 
@@ -76,7 +76,7 @@ function Members(){
                     
                     <div className="card-body">
                         <p className="card-text">안녕하세요 민준입니다.<br/> 반갑습니다</p>
-                        <button onClick={() => handleImageClick('minjun')}>View more</button>
+                        <button class="btn btn-primary fw-bold" onClick={() => handleImageClick('minjun')}>View more</button>
                     </div>
                 </div>
                 </div>
