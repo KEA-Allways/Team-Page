@@ -79,9 +79,9 @@ function ModalContent({ modalType, closeModal }) {
 
         case 'minjun':
             name = "김민준";
-            self_introduce = "";
-            email = "";
-            github_link = "";
+            self_introduce = "매일 재미있게 개발하고 싶은 김민준입니다~";
+            email = "jmk7117@naver.com";
+            github_link = "https://github.com/minjun0707";
             break;
         // Add more cases for other modal types if needed
 
