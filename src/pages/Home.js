@@ -12,8 +12,8 @@ function Home(){
                 <div className="header-content">
                     <Logo />
                     <h1>
-                        <span style={{ color: 'FBF562' }}>ALWAYS</span>{' '}
-                        <span style={{ color: '#43C0FF' }}>ALL WAYS</span> 
+                        <span style={{ color: 'FBF562', fontSize:'70px'  }}>ALWAYS</span>
+                        &nbsp;&nbsp;<span style={{ color: '#43C0FF', fontSize:'70px' }}>ALL WAYS</span> 
                     </h1>
                 </div>
             </header>
