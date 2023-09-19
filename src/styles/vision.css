@@ -9,6 +9,8 @@
     border: 1px solid #ddd;
     background-color: #fff;
     align-items: center;
+    width: 50%;
+    justify-content: center;
   }
   
   .card-img-top {
@@ -30,4 +32,12 @@
 
   .temp-container {
     display: flex;
+  }
+
+  .center {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* 텍스트 정렬도 추가합니다. */
   }
