@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Modal from 'react-modal';
 import { customModalStyles } from '../styles/ModalStyles';
 import ModalContent from './ModalContent';
+import '../styles/members.css';
 Modal.setAppElement('#root');
 
 function Members(){

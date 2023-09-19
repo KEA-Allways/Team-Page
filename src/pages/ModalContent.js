@@ -45,9 +45,9 @@ function ModalContent({ modalType, closeModal }) {
 
         case 'suha':
             name = "황수하";
-            self_introduce = "";
-            email = "";
-            github_link = "";
+            self_introduce = "항상 배우고 싶은 개발자 황수하입니다.";
+            email = "hp980724@gmail.com";
+            github_link = "https://github.com/hp0724";
             break;
 
         case 'sungjun':
