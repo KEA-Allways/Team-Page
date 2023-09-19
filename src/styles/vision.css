@@ -1,0 +1,43 @@
+.header {
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+  }
+  
+  .card-img-top {
+    max-width: 150%;
+    height: auto;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .temp-container {
+    display: flex;
+  }
+
+  .center {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* 텍스트 정렬도 추가합니다. */
+  }
