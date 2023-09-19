@@ -1,4 +1,6 @@
 import React from 'react';
+import GitIcon from "../assets/github.png"; // GitHub 이미지 경로
+import MailIcon from "../assets/email.png"; // Email 이미지 경로
 
 const modalContentStyles = {
   modalContainer: {
@@ -7,17 +9,21 @@ const modalContentStyles = {
     backgroundColor: '#f9f9f9',
     borderRadius: '10px',
     boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.3)',
+    fontFamily: 'Gowun Dodum'
   },
   header: {
     color: '#333',
+    fontFamily: 'Gowun Dodum'
   },
   name: {
     fontSize: '24px',
     color: '#333',
+    fontFamily: 'Gowun Dodum'
   },
   introduce: {
     fontSize: '18px',
     color: '#555',
+    fontFamily: 'Gowun Dodum'
   },
   email: {
     fontSize: '20px',
@@ -66,9 +72,9 @@ function ModalContent({ modalType, closeModal }) {
 
         case 'dajeong':
             name = "최다정";
-            self_introduce = "";
-            email = "";
-            github_link = "";
+            self_introduce = "사용자에게 맞는 맞춤형 기능을 제공하는 개발자가 되겠습니다.";
+            email = "hers010801@gmail.com";
+            github_link = "https://github.com/allrightDJ0108";
             break;
 
         case 'minjun':
@@ -90,17 +96,23 @@ function ModalContent({ modalType, closeModal }) {
       </header>
       <div className="container">
         <h2 style={modalContentStyles.name}>안녕하세요, 제 이름은 {name} 입니다.</h2>
-        <p style={modalContentStyles.introduce}>{self_introduce}</p>
-        <h3 style={modalContentStyles.email}>Email: {email}</h3>
+        <p style={modalContentStyles.introduce}>
+            {self_introduce}
+        </p>
+        <br/>
+        <h3 style={modalContentStyles.email}>
+          <img src={MailIcon} alt="메일아이콘" className="logo-image" width="30px" />
+          &nbsp; {email}
+        </h3>
         <h3>
-          GitHub:{' '}
           <a
             href={github_link}
             style={modalContentStyles.githubLink}
-            onMouseEnter={(e) => (e.target.style = { ...modalContentStyles.githubLink, ...modalContentStyles.githubLinkHover })}
-            onMouseLeave={(e) => (e.target.style = modalContentStyles.githubLink)}
+            // onMouseEnter={(e) => (e.target.style = { ...modalContentStyles.githubLink, ...modalContentStyles.githubLinkHover })}
+            // onMouseLeave={(e) => (e.target.style = modalContentStyles.githubLink)}
           >
-            {github_link}
+            <img src={GitIcon} alt="깃아이콘" className="logo-image" width="30px" />
+            &nbsp; {github_link}
           </a>
         </h3>
       </div>
