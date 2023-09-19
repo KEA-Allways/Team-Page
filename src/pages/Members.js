@@ -23,13 +23,11 @@ function Members(){
     return(
         <div>
             <Navbar />
-            
             <header className="header">
-                
-                    <h1>
-                        <span style={{ color: 'FBF562' }}>Fancy</span>{' '}
-                        <span style={{ color: '#43C0FF' }}>Members</span> 
-                    </h1>
+                <h1>
+                    <span style={{ color: 'FBF562' }}>Fancy</span>{' '}
+                    <span style={{ color: '#43C0FF' }}>Members</span> 
+                </h1>
 
                 <div style={{display : "flex", padding:"10px"}}>
                 <div className="card" style={{ width : '25rem' }}>
