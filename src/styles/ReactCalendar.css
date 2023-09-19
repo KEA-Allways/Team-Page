@@ -3,7 +3,10 @@
 /* Adjust the calendar's container */
 .App {
   font-family: Arial, sans-serif;
-  padding: 20px;
+  padding: 40px;
+  max-height: 500px;
+  max-width: 1200px; /* Set the maximum width */
+  margin: 0 auto;
 }
 
 /* Style the calendar */
@@ -53,3 +56,16 @@
 .fc-event-inner {
   border: none;
 }
+
+.fc-day a{
+  color:black
+}
+.fc-day-sat a{
+  color:blue
+}
+
+.fc-day-sun  a{
+  color:red
+}
+
+
