@@ -23,6 +23,7 @@ const modalContentStyles = {
   introduce: {
     fontSize: '18px',
     color: '#555',
+    fontFamily: 'Gowun Dodum'
   },
   email: {
     fontSize: '20px',
