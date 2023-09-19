@@ -15,6 +15,7 @@ function Vision() {
         <div className="center">
         <div className="card">
             <p className="card-text">우리는 도전에 두려워 하지 않습니다.</p>
+            
             <p className="card-text">"가보지 않은 길은 위험하잖아?"</p>
             <p className="card-text">배는 정박해 있을 때 가장 안전하지만 그것은 배의 존재 이유가 아닙니다.</p> 
             <p className="card-text">가보지 않은 길은 실패의 위험이 따르지만 우리는 혁신의 길을 가는 사람들입니다.</p>
