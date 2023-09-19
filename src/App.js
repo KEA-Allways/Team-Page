@@ -1,39 +1,31 @@
-import React, {useState, useEffect} from 'react';
-import Layout from './pages/Layout';
-import Welcome from './pages/Welcome';
+
+import React, {useState, useEffect, useRef} from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "./styles/App.css"; // 스타일링 파일 임포트
-import Logo from './pages/Logo';
+import Home from './pages/Home';
+import Members from './pages/Members';
+import First from './pages/First';
+import Vision from './pages/Vision';
+import Calendar from './pages/Calendar';
+
+  
 
 function App() {
-  const [showLogo, setShowLogo] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setShowLogo(false);
-    }, 2000); // 2초 후 로고를 숨김
-  }, []);
-
-
+  
   return (
     (
-      <div>
-        {showLogo 
-        ? <Welcome /> 
-        : <div>
-        <header className="header">
-          <div className="header-content">
-            <Logo />
-            
-            <h1>
-              <span style={{ color: 'FBF562' }}>ALWAYS</span>{' '}
-              <span style={{ color: '#43C0FF' }}>ALL WAYS</span> 
-            </h1>
-          </div>
-        </header>
-        
-        <Layout/>
-      </div>}
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<First />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/members' element={<Members />} />
+          <Route path='/vision' element={<Vision />} />
+          <Route path='/calendar' element={<Calendar />} />
+        </Routes>
+      </BrowserRouter>
+      
+
+
     )
   );
 }
