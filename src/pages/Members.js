@@ -27,7 +27,7 @@ function Members(){
             <header className="header">
                 
                     <h1>
-                        <span style={{ color: 'FBF562' }}>Fancy</span>{' '}
+                        <span style={{ color: 'FBF562' }} >Fancy</span>{' '}
                         <span style={{ color: '#43C0FF' }}>Members</span> 
                     </h1>
 
@@ -80,6 +80,9 @@ function Members(){
                         <p className="card-text">안녕하세요 민준입니다. 반갑습니다</p>
                         <button onClick={() => handleImageClick('minjun')}>View more</button>
                     </div>
+                </div>
+                <div className="position-relative overflow-hidden">
+                    <img width="150px" src="/sungjun.png" className="img-fluid w-100" />
                 </div>
                 </div>
             </header>

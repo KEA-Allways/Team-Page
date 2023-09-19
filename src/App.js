@@ -7,6 +7,7 @@ import Members from './pages/Members';
 import First from './pages/First';
 import Vision from './pages/Vision';
 import Calendar from './pages/Calendar';
+import Team from './pages/Team';
 
   
 
@@ -18,8 +19,8 @@ function App() {
         <Routes>
           <Route path='/' element={<First />} />
           <Route path='/home' element={<Home />} />
-          <Route path='/members' element={<Members />} />
-          <Route path='/vision' element={<Vision />} />
+          <Route path='/members' element={<Team />} />
+          <Route path='/vision' element={<Members />} />
           <Route path='/calendar' element={<Calendar />} />
         </Routes>
       </BrowserRouter>
