@@ -20,9 +20,9 @@ function First(){
             <Welcome />
         :
         <div>
+            <Navbar/>
             <header className="header">
                 <div className="header-content">
-                    <Navbar className="header"/>
                     <Logo />
                     <h1>
                         <span style={{ color: 'FBF562' }}>ALWAYS</span>{' '}
