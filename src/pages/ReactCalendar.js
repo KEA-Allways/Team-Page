@@ -6,7 +6,10 @@ import "../styles/ReactCalendar.css"
 import Navbar from './Navbar';
 
 class ReactCalendar extends Component {
+
+     
     render() {
+         
         const events = [
           {
               title: '페이지 제작',
@@ -30,6 +33,7 @@ class ReactCalendar extends Component {
                         defaultView="dayGridMonth"
                         plugins={[dayGridPlugin]}
                         events={events}
+                        
                     />
           </div>
           </>
