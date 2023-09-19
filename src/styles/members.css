@@ -1,5 +1,8 @@
 /* Members.css */
 
+ 
+ 
+ 
 .header {
     background-color: #000000;
     padding: 20px;
@@ -11,6 +14,7 @@
     border: 1px solid #ddd;
     background-color: #fff;
   }
+ 
   
   .card-img-top {
     max-width: 100%;

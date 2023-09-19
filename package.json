@@ -4,16 +4,30 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
+    "@fullcalendar/core": "^6.1.8",
+    "@fullcalendar/daygrid": "^6.1.8",
+    "@fullcalendar/interaction": "^6.1.8",
+    "@fullcalendar/react": "^6.1.8",
+    "@fullcalendar/timegrid": "^6.1.8",
+    "@iconify/react": "^4.1.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "date-fns": "^2.30.0",
     "framer-motion": "^10.16.4",
+    "iconify": "^1.4.0",
+    "moment": "^2.29.4",
     "react": "^18.2.0",
+    "react-calendar": "^4.6.0",
+    "react-datepicker": "^4.18.0",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
+    "react-uuid": "^2.0.0",
+    "sass": "^1.67.0",
     "styled-component": "^2.8.0",
+    "styled-components": "^6.0.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -45,16 +59,16 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KEA-Allways/Team-Pages.git"
   },
   "bugs": {
     "url": "https://github.com/KEA-Allways/Team-Pages/issues"
+  },
+  "devDependencies": {
+    "@types/react-datepicker": "^4.15.0"
   }
 }
-
-
 
 
