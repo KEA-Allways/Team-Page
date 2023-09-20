@@ -28,14 +28,15 @@ function Members(){
                     <span style={{ color: 'FBF562' , fontSize:'80px'}}>Fancy</span>{' '}
                     <span style={{ color: '#43C0FF' , fontSize:'80px'}}>Members</span> 
                 </h1>
-
-                <div style={{display : "flex", padding:"10px"}}>
+            </header>
+            <body>
+            <div style={{display : "flex", padding:"10px"}}>
                 <div className="card" style={{ width : '25rem' }}>
 
                     <img width="150px" src="/suha.png" alt="Suha Image" className="card-img-top" />
                     
                     <div className="card-body">
-                        <p className="card-text">안녕하세요 수하입니다.<br/> 반갑습니다</p>
+                        <p className="card-text">안녕하세요 수하입니다.<br/> 반갑습니다.</p>
                         <button class="btn btn-primary fw-bold"onClick={() => handleImageClick('suha')}>View more</button>
                     </div>
                 </div>
@@ -45,7 +46,7 @@ function Members(){
                     <img width="150px" src="/sungjun.png" alt="Sungjun Image" className="card-img-top" />
                     
                     <div className="card-body">
-                        <p className="card-text">안녕하세요 성준입니다.<br/> 반갑습니다</p>
+                        <p className="card-text">안녕하세요 성준입니다.<br/> 반갑습니다.</p>
                         <button class="btn btn-primary fw-bold" onClick={() => handleImageClick('sungjun')}>View more</button>
                     </div>
                 </div>
@@ -55,7 +56,7 @@ function Members(){
                     <img width="150px" src="/changmeen.png" alt="Changmeen Image" className="card-img-top" />
                     
                     <div className="card-body">
-                        <p className="card-text">안녕하세요 창민입니다.<br/> 반갑습니다</p>
+                        <p className="card-text">안녕하세요 창민입니다.<br/> 반갑습니다.</p>
                         <button class="btn btn-primary fw-bold" onClick={() => handleImageClick('changmeen')}>View more</button>
                     </div>
                 </div>
@@ -65,7 +66,7 @@ function Members(){
                     <img width="150px" src="/dajeong.png" alt="Dajeong Image" className="card-img-top" />
                     
                     <div className="card-body">
-                        <p className="card-text">안녕하세요 다정입니다.<br/> 반갑습니다</p>
+                        <p className="card-text">안녕하세요 다정입니다.<br/> 반갑습니다.</p>
                         <button class="btn btn-primary fw-bold" onClick={() => handleImageClick('dajeong')}>View more</button>
                     </div>
                 </div>
@@ -75,12 +76,12 @@ function Members(){
                     <img width="150px" src="/minjun.png" alt="Minjun Image" className="card-img-top" />
                     
                     <div className="card-body">
-                        <p className="card-text">안녕하세요 민준입니다.<br/> 반갑습니다</p>
+                        <p className="card-text">안녕하세요 민준입니다.<br/> 반갑습니다.</p>
                         <button class="btn btn-primary fw-bold" onClick={() => handleImageClick('minjun')}>View more</button>
                     </div>
                 </div>
                 </div>
-            </header>
+            </body>
 
             <Modal
                 isOpen={isModalOpen}
