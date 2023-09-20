@@ -8,11 +8,12 @@
   .card {
     margin: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border-radius: 10px;
     background-color: #fff;
     align-items: center;
-    width: 50%;
     justify-content: center;
+    width: 50%;
+    height : 400px;
   }
   
   .card-img-top {
@@ -38,8 +39,23 @@
 
   .center {
     padding: 10px;
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center; /* 텍스트 정렬도 추가합니다. */
+  }
+
+  .visionMain {
+    color : white;
+  }
+
+  .vision-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .vision-highlight {
+    font-size: 18px;
+    margin-bottom: 10px;
+    align-items: center;
   }

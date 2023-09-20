@@ -15,17 +15,29 @@ function Vision() {
 
       </header>
       <body>
-      <div className="center">
-        <div className="card">
-            <p className="card-text">우리는 도전에 두려워 하지 않습니다.</p>
+        <div className="center">
+            <div className="visionMain">
+                <p className="vision-text">우리는 도전에 두려워 하지 않습니다.</p>
+                
+                <p className="vision-text">"가보지 않은 길은 위험하잖아?"</p>
+                <p className="vision-text">배는 정박해 있을 때 가장 안전하지만 그것은 배의 존재 이유가 아닙니다.</p> 
+                <p className="vision-text">가보지 않은 길은 실패의 위험이 따르지만 우리는 혁신의 길을 가는 사람들입니다.</p>
+                <br/>
+                <p className="vision-highlight">'언제나 - Always' 도전하고 '모든 - All ways' 방법을 찾아내 더 나은 세상을 만들기 위해 노력합니다.</p>
+            </div>
+        </div>
+        <div className="card-center">
+            <div className="card-vision-left">
+                
+            </div>
+            <div className="card-vision-right">
+                
+            </div>
             
-            <p className="card-text">"가보지 않은 길은 위험하잖아?"</p>
-            <p className="card-text">배는 정박해 있을 때 가장 안전하지만 그것은 배의 존재 이유가 아닙니다.</p> 
-            <p className="card-text">가보지 않은 길은 실패의 위험이 따르지만 우리는 혁신의 길을 가는 사람들입니다.</p>
-            <p className="card-text">'언제나-Always' 도전하고 '모든-All ways' 방법을 찾아내 더 나은 세상을 만들기 위해 노력합니다.</p>
+            
+
         </div>
-        </div>
-{/*         
+        
         <div className="card-container">
             <div className="temp-container">
             <div className="card" style={{ width : '10rem' }}>
@@ -56,7 +68,7 @@ function Vision() {
                 </div>
             </div>
             </div>
-        </div> */}
+        </div>
 
       </body>
     </div>
