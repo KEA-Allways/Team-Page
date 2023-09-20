@@ -4,6 +4,7 @@ import Modal from 'react-modal';
 import { customModalStyles } from '../styles/ModalStyles';
 import ModalContent from './ModalContent';
 import '../styles/members.css';
+import "../styles/styles.css"
 Modal.setAppElement('#root');
 
 function Members(){
@@ -72,7 +73,7 @@ function Members(){
 
                 <div className="card" style={{ width : '25rem' }}>
 
-                    <img width="150px" src="/minjun.jpeg" alt="Minjun Image" className="card-img-top" />
+                    <img width="150px" src="/minjun.png" alt="Minjun Image" className="card-img-top" />
                     
                     <div className="card-body">
                         <p className="card-text">안녕하세요 민준입니다.<br/> 반갑습니다</p>
@@ -88,14 +89,14 @@ function Members(){
                 contentLabel="Modal"
                 style={customModalStyles}
                 overlayClassName={{
-                base: "overlay-base",
-                afterOpen: "overlay-after",
-                beforeClose: "overlay-before"
+                  base: "overlay-base",
+                  afterOpen: "overlay-after",
+                  beforeClose: "overlay-before"
                 }}
                 className={{
-                base: "content-base",
-                afterOpen: "content-after",
-                beforeClose: "content-before"
+                  base: "content-base",
+                  afterOpen: "content-after",
+                  beforeClose: "content-before"
                 }}
             >
                 <ModalContent modalType={modalType} closeModal={closeModal}/>
