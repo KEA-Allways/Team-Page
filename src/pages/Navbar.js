@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../styles/App.css';
 import logoImage from "../assets/logo.png"; 
-import GitIcon from "../assets/github.png";
+import GitIcon from "../assets/githubW.png";
 
 function Navbar() {
   // 현재 URL 가져오기

@@ -8,11 +8,13 @@ function Vision() {
       <Navbar />
       <header className="header">
         <h1>
-            <span style={{ color: 'FBF562' }}>Always Developing</span>{' '}
-            <span style={{ color: '#43C0FF' }}>Finding All ways</span> 
+            <span style={{ color: 'FBF562' , fontSize:'80px'}}>Always Developing</span>{' '}
+            <span style={{ color: '#43C0FF' , fontSize:'80px'}}>Finding All ways</span> 
         </h1>
 
-        <div className="center">
+      </header>
+      <body>
+      <div className="center">
         <div className="card">
             <p className="card-text">우리는 도전에 두려워 하지 않습니다.</p>
             
@@ -53,7 +55,7 @@ function Vision() {
             </div>
             </div>
         </div>
-      </header>
+      </body>
     </div>
   );
 }
