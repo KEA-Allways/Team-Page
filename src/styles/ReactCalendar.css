@@ -4,6 +4,10 @@
   padding: 20px;
   margin: 0 auto;
 }
+
+.backCal {
+  background: linear-gradient(to top, black, rgb(3, 1, 42));
+}
 .fc-toolbar-chunk {
   margin-right : 1.5em;
 }
@@ -67,4 +71,16 @@
   text-decoration: none;
 }
 
+.headerCal {
+  background: linear-gradient(to top, black, rgb(3, 1, 42));
+  padding: 20px;
+}
+
+.headerCal h1 {
+  color: white;
+  margin-top: inherit;
+  margin-bottom: inherit;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
  

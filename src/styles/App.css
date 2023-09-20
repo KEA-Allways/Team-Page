@@ -23,15 +23,22 @@ body {
 }
 
 .header h1 {
-  color: yellow;
+  color: white;
   margin-top: inherit;
   margin-bottom: inherit;
+  font-weight: 700;
+  letter-spacing: 3px;
 }
+
 .nav {
   background-color: #000000;
   color: #fff;
   padding: 10px 0;
   text-align: center;
+}
+
+.back {
+  background: linear-gradient(to top, rgb(3, 1, 42), rgb(0, 0, 0));
 }
 
 .nav a {

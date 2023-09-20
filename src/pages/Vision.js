@@ -8,8 +8,9 @@ function Vision() {
       <Navbar />
       <header className="header">
         <h1>
-            <span style={{ color: 'FBF562' , fontSize:'80px'}}>Always Developing</span>{' '}
-            <span style={{ color: '#43C0FF' , fontSize:'80px'}}>Finding All ways</span> 
+            {/* <span style={{ color: 'FBF562' , fontSize:'80px'}}>Always Developing</span>{' '}
+            <span style={{ color: '#43C0FF' , fontSize:'80px'}}>Finding All ways</span>  */}
+            Always Developing Finding All ways
         </h1>
 
       </header>
@@ -24,6 +25,7 @@ function Vision() {
             <p className="card-text">'언제나-Always' 도전하고 '모든-All ways' 방법을 찾아내 더 나은 세상을 만들기 위해 노력합니다.</p>
         </div>
         </div>
+{/*         
         <div className="card-container">
             <div className="temp-container">
             <div className="card" style={{ width : '10rem' }}>
@@ -54,7 +56,8 @@ function Vision() {
                 </div>
             </div>
             </div>
-        </div>
+        </div> */}
+
       </body>
     </div>
   );

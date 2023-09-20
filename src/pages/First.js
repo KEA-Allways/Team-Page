@@ -30,8 +30,6 @@ function First(){
                     </h1>
                 </div>
             </header>
-        
-            <Layout/>
         </div>
     }
           
