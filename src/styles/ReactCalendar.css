@@ -69,3 +69,18 @@
 .fc-day-sun a {
   color: red;
 }
+
+
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+}
+
+.fc fc-media-screen fc-direction-ltr fc-theme-standard {
+  border: 100px;
+}
+
+.fc-toolbar-chunk {
+  margin-right : 1.5em;
+}
