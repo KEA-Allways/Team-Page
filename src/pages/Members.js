@@ -4,6 +4,7 @@ import Modal from 'react-modal';
 import { customModalStyles } from '../styles/ModalStyles';
 import ModalContent from './ModalContent';
 import '../styles/members.css';
+import "../styles/styles.css"
 Modal.setAppElement('#root');
 
 function Members(){
@@ -88,14 +89,14 @@ function Members(){
                 contentLabel="Modal"
                 style={customModalStyles}
                 overlayClassName={{
-                base: "overlay-base",
-                afterOpen: "overlay-after",
-                beforeClose: "overlay-before"
+                  base: "overlay-base",
+                  afterOpen: "overlay-after",
+                  beforeClose: "overlay-before"
                 }}
                 className={{
-                base: "content-base",
-                afterOpen: "content-after",
-                beforeClose: "content-before"
+                  base: "content-base",
+                  afterOpen: "content-after",
+                  beforeClose: "content-before"
                 }}
             >
                 <ModalContent modalType={modalType} closeModal={closeModal}/>
