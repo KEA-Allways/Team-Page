@@ -8,7 +8,7 @@ function Home(){
     <div>
         <div>
         <Navbar/>
-            <header className="header">
+            <header className="header" style={{ padding: "0px" }}>
                 <div className="header-content">
                     <Logo />
                     <h1>

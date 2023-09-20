@@ -1,8 +1,8 @@
 /* Adjust the calendar's container */
 .App {
   font-family: Arial, sans-serif;
-  padding: 20px;
-  margin: 0 auto;
+  padding: 30px;
+  margin: 10 auto;
 }
 .fc-toolbar-chunk {
   margin-right : 1.5em;
