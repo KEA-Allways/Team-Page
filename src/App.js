@@ -23,7 +23,7 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/members' element={<Members />} />
  
-          <Route path="/calender" element={<ReactCalendar />} />
+          <Route path="/calendar" element={<ReactCalendar />} />
           <Route path='/vision' element={<Vision />} />
            
  

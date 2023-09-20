@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/App.css'
 import logoImage from "../assets/logo.png"; 
+import GitIcon from "../assets/github.png";
 
 function Navbar() {
   return (
@@ -33,10 +34,7 @@ function Navbar() {
                         </div> */}
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
-                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a className="navbar-brand" href='https://github.com/KEA-Allways/Team-Pages'> <img src={GitIcon} alt="깃아이콘" className="logo-image" width="50px" /></a>
                     </div>
                 </div>
             </nav>
