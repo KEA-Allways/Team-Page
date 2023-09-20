@@ -27,13 +27,13 @@ class ReactCalendar extends Component {
         return (
           <>
             <Navbar/>
-          <div className="App">
-            <FullCalendar
-                
-                plugins={[dayGridPlugin]}
-                events={events}
-              />
-          </div>
+              <div className="App" style={{width:'50%', height:'50%',margin:'0 auto'}}>
+                <FullCalendar
+                    
+                    plugins={[dayGridPlugin]}
+                    events={events}
+                  />
+              </div>
           </>
           
         );

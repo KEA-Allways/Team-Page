@@ -7,6 +7,9 @@ body {
   background-color: #000000;
 }
 
+.active {
+  text-decoration: underline;
+}
  
 .visible {
   opacity: 1; /* 투명도를 1로 설정하여 이미지를 표시 */
