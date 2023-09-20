@@ -30,10 +30,6 @@ class ReactCalendar extends Component {
           <div className="App">
             <FullCalendar
                 
-                locale="ko" // 한글 지원을 위한 locale 설정
-                dayHeaderFormat={{ weekday: 'long' }} // 요일을 한글로 표시
-                monthNames={['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월']}
-                dayNames={['일', '월', '화', '수', '목', '금', '토']}
                 plugins={[dayGridPlugin]}
                 events={events}
               />
