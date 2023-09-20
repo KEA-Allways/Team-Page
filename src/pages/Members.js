@@ -72,7 +72,7 @@ function Members(){
 
                 <div className="card" style={{ width : '25rem' }}>
 
-                    <img width="150px" src="/minjun.jpeg" alt="Minjun Image" className="card-img-top" />
+                    <img width="150px" src="/minjun.png" alt="Minjun Image" className="card-img-top" />
                     
                     <div className="card-body">
                         <p className="card-text">안녕하세요 민준입니다.<br/> 반갑습니다</p>
