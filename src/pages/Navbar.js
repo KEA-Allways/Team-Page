@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/App.css'
 import logoImage from "../assets/logo.png"; 
-import GitIcon from "../assets/github.png";
+import GitIcon from "../assets/githubW.png";
 
 function Navbar() {
   return (
