@@ -1,14 +1,25 @@
 /* Adjust the calendar's container */
 .App {
   font-family: Arial, sans-serif;
-  padding: 40px;
-  max-height: 800px; /* 예시: 원하는 최대 높이 */
-  max-width: 85%;
+  padding: 20px;
   margin: 0 auto;
 }
+.fc-toolbar-chunk {
+  margin-right : 1.5em;
+}
 
+.fc .fc-toolbar-title {
+  font-weight: 800;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 1.5em;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+}
 /* Style the calendar */
 .fc {
+
   background-color: #f9f9f9;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   border: 1px solid #ccc;
@@ -33,39 +44,27 @@
   background-color: #0056b3;
 }
 
-/* Style the calendar event */
-.fc-event {
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 3px;
-}
-
-.fc-event:hover {
-  background-color: #218838;
-}
-
-/* Style the calendar event text */
-.fc-event-title {
-  font-size: 14px;
-}
-
-/* Style the calendar event border */
-.fc-event-inner {
-  border: none;
-}
 
 /* Style day links */
 .fc-day a {
+  margin-right:3px;
   color: black;
+  text-decoration: none;
+  
 }
 
 /* Style Saturday links */
 .fc-day-sat a {
+  margin-right:3px ;
   color: blue;
+  text-decoration: none;
 }
 
 /* Style Sunday links */
 .fc-day-sun a {
+  margin-right:3px;
   color: red;
+  text-decoration: none;
 }
+
+ 
