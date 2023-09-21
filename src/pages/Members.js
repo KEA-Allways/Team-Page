@@ -42,8 +42,7 @@ function Members(){
             <Navbar />
             <header className="header">
                 <h1>
-                    <span style={{ color: 'FBF562' , fontSize:'80px'}}>Fancy</span>{' '}
-                    <span style={{ color: '#43C0FF' , fontSize:'80px'}}>Members</span> 
+                    Fancy Members
                 </h1>
             </header>
             <body>

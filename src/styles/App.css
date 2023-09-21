@@ -23,9 +23,11 @@ body {
 }
 
 .header h1 {
-  color: yellow;
+  color: white;
   margin-top: inherit;
   margin-bottom: inherit;
+  font-weight: 700;
+  letter-spacing: 3px;
 }
 .nav {
   background-color: #000000;
@@ -45,11 +47,26 @@ body {
   text-decoration: underline;
 }
 
+.back {
+  background: linear-gradient(to top, rgb(3, 1, 42), rgb(0, 0, 0));
+}
+
  
 .enlarged {
   transform: scale(3); /* 이미지 크기를 1.2배로 확대합니다. 원하는 크기로 수정하세요. */
   transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out; /* 크기 변경 및 투명도 전환 애니메이션 */
 }
 
-
+.navbar {
+  margin-top: 5px;
+}
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+}
  
+.navbar-brand {
+  margin-left: 15px;
+  margin-right: 15px;
+}
