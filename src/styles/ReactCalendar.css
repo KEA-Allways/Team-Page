@@ -68,3 +68,20 @@
 }
 
  
+.backCal {
+  background: linear-gradient(to top, black, rgb(3, 1, 42));
+}
+
+.headerCal {
+  background: linear-gradient(to top, black, rgb(3, 1, 42) 30%);
+  padding: 10px;
+}
+
+.headerCal h1 {
+  color: white;
+  margin-top: inherit;
+  margin-bottom: inherit;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+}
