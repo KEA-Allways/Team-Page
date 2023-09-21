@@ -1,18 +1,27 @@
   .header {
     background-color: #000000;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
   }
   
   .card {
     margin: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    background-color: #FBF562;
+     
+  }
+  .card-center{
+    margin: 10px;
+    padding: 10px;
     background-color: #fff;
     align-items: center;
     width: 50%;
     justify-content: center;
+    background-color: #43C0FF;
   }
   
   .card-img-top {
@@ -42,4 +51,9 @@
     justify-content: center;
     align-items: center;
     text-align: center; /* 텍스트 정렬도 추가합니다. */
+     
   }
+
+.card-text{
+  color: #43C0FF;
+}
