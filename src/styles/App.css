@@ -8,7 +8,8 @@ body {
 }
 
 .active {
-  text-decoration: underline;
+  /* nav바 선택된 탭에 효과 추가 */
+  /* text-decoration: underline; */
 }
  
 .visible {
