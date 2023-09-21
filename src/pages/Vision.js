@@ -30,29 +30,29 @@ function Vision() {
       </motion.div>
       <motion.div className="card-container" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <div className="temp-container">
-          <motion.div className="card" style={{ width: "10rem",  height:"16rem"}} whileHover={{ scale: 1.05 }}>
+          <motion.div className="card" style={{ width: "10rem", height:"20rem" }} whileHover={{ scale: 1.05 }}>
             <img width="200px" src="/Society.png" alt="Society" className="card-img-top" />
             <div className="card-body">
-              <p className="card-text">항상 더 나은 사회를 위해 개발하겠습니다.</p>
+              <p className="card-text">항상<br/> 더 나은 사회를 위해 개발하겠습니다.</p>
             </div>
           </motion.div>
-          <motion.div className="card" style={{ width: "10rem" ,height:"16rem"}} whileHover={{ scale: 1.05 }}>
+          <motion.div className="card" style={{ width: "10rem" , height:"20rem" }} whileHover={{ scale: 1.05 }}>
             <img width="200px" src="/Knowledge.png" alt="Knowledge" className="card-img-top" />
             <div className="card-body">
-              <p className="card-text">항상 새로운 지식을 얻고자 노력하겠습니다</p>
+              <p className="card-text">항상<br/> 새로운 지식을 얻고자 노력하겠습니다.</p>
             </div>
           </motion.div>
-          <motion.div className="card" style={{ width: "10rem",height:"16rem" }} whileHover={{ scale: 1.05 }}>
+          <motion.div className="card" style={{ width: "10rem", height:"20rem" }} whileHover={{ scale: 1.05 }}>
             <img width="200px" src="/Friends.png" alt="Friends" className="card-img-top" />
             <div className="card-body">
-              <p className="card-text">항상 동료에게 믿음과 신뢰를 주겠습니다.</p>
+              <p className="card-text">항상<br/> 동료에게 믿음과 신뢰를 주겠습니다.</p>
             </div>
           </motion.div>
            
-          <motion.div className="card" style={{ width: "10rem",height:"16rem" }} whileHover={{ scale: 1.05 }}>
+          <motion.div className="card" style={{ width: "10rem", height:"20rem" }} whileHover={{ scale: 1.05 }}>
             <img width="200px" src="/Leadership.png" alt="Leadership" className="card-img-top" />
             <div className="card-body">
-              <p className="card-text">항상 주도적으로 행동하겠습니다.</p>
+              <p className="card-text">항상<br/> 주도적으로 행동하겠습니다.</p>
             </div>
           </motion.div>
         </div>
