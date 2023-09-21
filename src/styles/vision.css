@@ -1,6 +1,6 @@
   .header {
     /* background-color: #000000; */
-    background: linear-gradient(to top, black, rgb(3, 1, 42));
+    background: linear-gradient(to top, black, rgb(3, 1, 42) 30%);
     padding: 20px;
     margin-bottom: 20px;
   }
