@@ -61,7 +61,7 @@ function Members(){
                 <motion.div className="card" style={{ width: '25rem' }}
                 variants={cardVariants} initial="hidden" animate="visible" custom={0}>
 
-                    <img width="150px" src="/sungjun.png" alt="Sungjun Image" className="card-img-top" />
+                    <img width="150px" src="/Sungjun.png" alt="Sungjun Image" className="card-img-top" />
                     
                     <div className="card-body">
                         <p className="card-text">안녕하세요 성준입니다.<br/> 반갑습니다.</p>
