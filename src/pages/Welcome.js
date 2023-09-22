@@ -1,7 +1,7 @@
 import React from 'react';
 import logoImage from "../assets/logo.png"; // 로고 이미지 경로
 import { motion } from "framer-motion"
-
+// ㅇ
 function Welcome() {
   return (
     <motion.div
