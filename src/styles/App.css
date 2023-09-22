@@ -9,7 +9,7 @@ body {
 
 .active {
   /* nav바 선택된 탭에 효과 추가 */
-  /* text-decoration: underline; */
+  color: blue;
 }
  
 .visible {
@@ -61,9 +61,8 @@ body {
 .navbar {
   margin-top: 5px;
 }
+
 .nav-item {
-  margin-left: 15px;
-  margin-right: 15px;
   font-size: 20px;
 }
  

@@ -12,12 +12,14 @@ function Navbar() {
     <div className="back">
        <nav className="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-3">
             <a className="navbar-brand" href="/home"><img src={logoImage} width={70} alt="로고" /></a>
-            <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            
+            {/* <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span className="navbar-toggler-icon"></span>
-            </button>
+            </button> */}
+
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav">
-                <Link to="/vision" className={`nav-item nav-link ${location.pathname === '/vision' ? 'active' : ''}`}>Vision</Link>
+                <Link to="/vision"  className={`nav-item nav-link ${location.pathname === '/vision' ? 'active' : ''}`}>Vision</Link>
                 <Link to="/members" className={`nav-item nav-link ${location.pathname === '/members' ? 'active' : ''}`}>Members</Link>
                 <Link to="/calendar" className={`nav-item nav-link ${location.pathname === '/calendar' ? 'active' : ''}`}>Calendar</Link>
                 </div>
