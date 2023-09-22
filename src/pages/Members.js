@@ -3,8 +3,8 @@ import Navbar from "./Navbar";
 import Modal from 'react-modal';
 import { customModalStyles } from '../styles/ModalStyles';
 import ModalContent from './ModalContent';
-import styles from '../styles/members.css';
-// import "../styles/styles.css"
+import '../styles/members.css';
+import "../styles/styles.css"
 import { motion } from "framer-motion";
 Modal.setAppElement('#root');
 
@@ -16,8 +16,9 @@ const cardVariants = {
     visible: {
       opacity: 1,
       y: 0,
-    transition: {
-        duration: 2, 
+      transition: {
+        duration: 2,
+        
       }
     }
   };
