@@ -7,9 +7,8 @@ body {
   background-color: #000000;
 }
 
-.active {
-  /* nav바 선택된 탭에 효과 추가 */
-  color: blue;
+.nav-item.nav-link.active {
+  color: blue; /* 파란색으로 변경 */
 }
  
 .visible {

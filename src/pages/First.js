@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Navbar from "./Navbar";
 import Logo from "./Logo";
-import Layout from "./Layout";
 import Welcome from "./Welcome";
 
 function First(){
@@ -26,7 +25,7 @@ function First(){
                     <Logo />
                     <h1>
                         <span style={{ color: '#FBF562' , fontSize:'70px' }}>ALWAYS</span>
-                        &nbsp;&nbsp;<span style={{ color: '#43C0FF' , fontSize:'70px' }}>ALL WAYS</span> 
+                        <span style={{ color: '#43C0FF' , fontSize:'70px' }}>ALL WAYS</span> 
                     </h1>
                 </div>
             </header>
