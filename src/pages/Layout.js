@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import { customModalStyles } from '../styles/ModalStyles';
 import ModalContent from './ModalContent';
-import "../styles/Layout.css"
+import styles from "../styles/Layout.css"
 Modal.setAppElement('#root');
 
 const Layout = () => {
